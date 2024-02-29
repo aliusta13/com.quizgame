@@ -20,13 +20,13 @@ public class QuizRunner {
         }
         //System.out.println(verbesList.size());//212
 
-        List <String> definitionList= new ArrayList<>();
+        List <String> definitionsList= new ArrayList<>();
 
         for (int i = 0; i <definition.defini.length ; i++) {
-            definitionList.add(definition.defini[i]);
+            definitionsList.add(definition.defini[i]);
 
         }
-        //System.out.println(definitionList.size());//212
+        //System.out.println(definitionsList.size());//212
 
         int questions;
         String reponse ;
@@ -51,14 +51,14 @@ public class QuizRunner {
         while (!(nobreDeQuestions<=212&nobreDeQuestions>=5));
 
 
-        int definitionSize= definitionList.size();
+        int definitionSize= definitionsList.size();
 
         for (int i = 0; i < nobreDeQuestions ; i++) {//nobreDeQuestions
 
             questions = (int) (Math.random() * (definitionSize-1-i));
             //questions=193;//pour les tests
             do {
-                System.out.println(definitionList.get(questions));
+                System.out.println(definitionsList.get(questions));
                 System.out.println("appuyez sur 1 pour obtenir un indice, sinon appuyez sur n'importe quelle touche");
                 String harfIsteme = scanner.nextLine();
                 if (harfIsteme.equals("1")) {
@@ -100,7 +100,7 @@ public class QuizRunner {
             compteur = 0;
 
             verbesList.remove(questions);
-            definitionList.remove(questions);
+            definitionsList.remove(questions);
             //compteurtest++;
         }
         System.out.println("Votre score total: "+points);
