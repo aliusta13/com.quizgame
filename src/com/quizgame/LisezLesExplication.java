@@ -2,6 +2,46 @@ package com.quizgame;
 
 public class LisezLesExplication {
 
+
+     /*
+                               UN RESUME EN FRANCAIS
+        Le code que j'ai  partagé est un programme en Java qui
+        met en œuvre un jeu de quiz de française.
+        Voici un résumé de son fonctionnement :
+
+        1. Le programme crée deux listes : une liste de verbes (verbesList) et
+           une liste de leurs définitions correspondantes (definitionsList).
+        2. L'utilisateur choisit le nombre de questions pour le quiz, compris entre 5 et 15.
+        3. Pour chaque question dans le nombre défini par l'utilisateur :
+                .Une définition est choisie au hasard parmi celles disponibles.
+                .L'utilisateur est invité à deviner le verbe correspondant à cette définition.
+                .L'utilisateur peut demander des indices s'il le souhaite.
+                .L'utilisateur a un maximum de 6 tentatives pour répondre correctement.
+                .Le score est calculé en fonction du nombre d'essais et d'indices utilisés.
+                .Une fois que l'utilisateur a répondu correctement ou a utilisé ses 6 tentatives, la définition et le verbe correspondant sont retirés des listes pour éviter la répétition.
+        4. À la fin du quiz, le score total de l'utilisateur est affiché.
+         */
+
+        /*
+                              TURKCE OZET
+        Paylaştığım kod bir Fransızca fiil  quizi uygulamasını içeriyor.
+        İşlevselliği şu şekildedir:
+
+        1. İki liste oluşturulur: biri fiillerin listesi (verbesList)
+           ve diğeri bunların karşılık gelen tanımlarının listesi (definitionListe).
+        2. Kullanıcı, 5 ile 15 arasında soru sayısını seçer.
+        3. Kullanıcı tarafından belirlenen soru sayısı kadar:
+         - Kullanılabilir tanımlardan rastgele bir tanesi seçilir.
+         - Kullanıcıdan bu tanıma karşılık gelen fiili tahmin etmesi istenir.
+        - Kullanıcı, istediği takdirde ipucu isteyebilir.
+        - Kullanıcıya doğru cevabı bulması için en fazla 6 deneme hakkı verilir.
+        - Kullanıcının puanı, kullanılan deneme sayısına ve alınan ipuçlarına göre hesaplanır.
+        - Kullanıcı doğru cevabı bulduğunda veya 6 deneme hakkını kullandığında,
+          ilgili tanım ve fiil listelerden çıkarılır, böylece tekrarlanmaz.
+        4. Quiz sonunda, kullanıcının toplam puanı görüntülenir.
+         */
+
+
      /*
 
         Un quiz sur 212 verbes français différents.
@@ -46,45 +86,7 @@ public class LisezLesExplication {
         ce qui évite la répétition de la question.
 
 
-
          */
 
-        /*
-                               UN RESUME EN FRANCAIS
-        Le code que j'ai  partagé est un programme en Java qui
-        met en œuvre un jeu de quiz de française.
-        Voici un résumé de son fonctionnement :
-
-        1. Le programme crée deux listes : une liste de verbes (verbesList) et
-           une liste de leurs définitions correspondantes (definitionsList).
-        2. L'utilisateur choisit le nombre de questions pour le quiz, compris entre 5 et 15.
-        3. Pour chaque question dans le nombre défini par l'utilisateur :
-                .Une définition est choisie au hasard parmi celles disponibles.
-                .L'utilisateur est invité à deviner le verbe correspondant à cette définition.
-                .L'utilisateur peut demander des indices s'il le souhaite.
-                .L'utilisateur a un maximum de 6 tentatives pour répondre correctement.
-                .Le score est calculé en fonction du nombre d'essais et d'indices utilisés.
-                .Une fois que l'utilisateur a répondu correctement ou a utilisé ses 6 tentatives, la définition et le verbe correspondant sont retirés des listes pour éviter la répétition.
-        4. À la fin du quiz, le score total de l'utilisateur est affiché.
-         */
-
-        /*
-                              TURKCE OZET
-        Paylaştığım kod bir Fransızca fiil  quizi uygulamasını içeriyor.
-        İşlevselliği şu şekildedir:
-
-        1. İki liste oluşturulur: biri fiillerin listesi (verbesList)
-           ve diğeri bunların karşılık gelen tanımlarının listesi (definitionListe).
-        2. Kullanıcı, 5 ile 15 arasında soru sayısını seçer.
-        3. Kullanıcı tarafından belirlenen soru sayısı kadar:
-         - Kullanılabilir tanımlardan rastgele bir tanesi seçilir.
-         - Kullanıcıdan bu tanıma karşılık gelen fiili tahmin etmesi istenir.
-        - Kullanıcı, istediği takdirde ipucu isteyebilir.
-        - Kullanıcıya doğru cevabı bulması için en fazla 6 deneme hakkı verilir.
-        - Kullanıcının puanı, kullanılan deneme sayısına ve alınan ipuçlarına göre hesaplanır.
-        - Kullanıcı doğru cevabı bulduğunda veya 6 deneme hakkını kullandığında,
-          ilgili tanım ve fiil listelerden çıkarılır, böylece tekrarlanmaz.
-        4. Quiz sonunda, kullanıcının toplam puanı görüntülenir.
-         */
 
 }
