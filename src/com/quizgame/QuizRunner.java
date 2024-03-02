@@ -48,7 +48,7 @@ public class QuizRunner {
             nobreDeQuestions = Integer.parseInt(nDQ);
 
         }
-        while (!(nobreDeQuestions<=212&nobreDeQuestions>=5));
+        while (!(nobreDeQuestions<=15&nobreDeQuestions>=5));
 
 
         int definitionSize= definitionsList.size();
