@@ -160,7 +160,7 @@ public class Verbes {
             "EXAMINER",//155
             "EXCELLER",//156
             "EXIGER",//157
-            "EXISTE",//158
+            "EXISTER",//158
             "EXPRIMER",//159
             "EXPULSER",//160
             "EXECUTER",//161
@@ -199,7 +199,7 @@ public class Verbes {
             "NIER",//194
             "OBLIGER",//195
             "OBSERVER",//196
-            "OBSTINER",//197
+            "OBTENIR",//197
             "OSER",//198
             "PARTICIPER",//199
             "PARVENIR",//200

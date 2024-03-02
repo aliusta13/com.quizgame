@@ -114,12 +114,12 @@ public class Definition {
             "Tavsiye etmek",//106
             "Saklamak, muhafaza etmek",//107
             "Düşünmek, görmek, değerlendirmek",//108
-            "Meydana gelmek, oluşmak",//109
+            "Meydana gelmek, oluşmak,être composé",//109
             "Teselli etmek",//110
             "Danışmak",//111
             "İçermek",//112
             "Ikna etmek",//113
-            "Doğrulamak, onaylamak",//114
+            "Doğrulamak, onaylamak, bir gorusu, bir hipotezi destekleyin guclendirin",//114
             "Akmak, akıp gitmek",//115
             "Tükürmek",//116
             "Yetiştirmek, işlemek",//117
@@ -141,7 +141,7 @@ public class Definition {
             "Donatmak",//133
             "Şüphe etmek",//134
             "Katılaştırmak, sertleştirmek",//135
-            "Aldatmak, kandırmak",//136
+            "Hayal kirikligina ugratmak, pasif cekimi ile hayal kirikligina ugradim",//136
             "Savunmak, korumak",//137
             "Kırmak, delmek",//138
             "Yardımcı olmak, desteklemek",//139
@@ -191,7 +191,7 @@ public class Definition {
             "Sorgulamak",//183
             "Müdahale etmek",//184
             "Tanıtmak, sokmak",//185
-            "Buluşmak, icat etmek",//186
+            "Icat etmek",//186
             "Tersine çevirmek",//187
             "Davet etmek",//188
             "Birleştirmek",//189
