@@ -170,7 +170,7 @@ public class Definition {
             "Kolaylaştırmak",//162
             "Neredeyse yapmak, hemen hemen yapmak",//163
             "Desteklemek, ayrıcalık tanımak",//164
-            "Tutmak, peşinden gitmek",//165
+            "Sokak dilinde vermek,eylemlerini izlemek icin birini gozden kacirmadan takip etmek,",//165
             "Sonlandırmak, nihayete erdirmek",//166
             "Koşmak, hızla gitmek",//167
             "Çalışmak, işlemek",//168
@@ -216,7 +216,7 @@ public class Definition {
             "Vaad etmek",//208
             "Önermek",//209
             "Kanıtlamak",//210
-            "Kaynaklanmak",//211
+            "Bir urunun mensei olmak, kaynagi olmak",//211
             "Tahmin etmek",//212
 
 
